@@ -13,7 +13,7 @@ $ ./NetCalculusServer1223.bat
 $ ./NetCalculusServer1224.bat
 </pre>
 
-Lub te¿ bezpoœrednio z Javy (rowniez CygWin):
+Lub tez bezposwrednio z Javy (rowniez CygWin):
 
 <pre>
 nohup "java -cp bin;lib\substance.jar com.sarxos.netcalculus.server.NetCalculusServer -port 1223" | tee -a calculus.log > /dev/null
