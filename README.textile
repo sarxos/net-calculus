@@ -1,19 +1,21 @@
 One of the projects I've made for the programing lecture. It is simple POC of distributed computing. It design allows to execute different mathematical operations on the different machines (only sum and multiplication is supported as I remember).
 
----
+################################################################3
 
 Description in Polish:
 
-W pierwsze kolejnosci trzeba odpalic serwery. Trzeba to zrobic na maszynie na ktorej dany serwer ma byc postawiony. Oczywiscie bezwzglednie trzeba znac jej adres. Uruchamiamy serwer w nastepujacy sposob:
+################################################################3
+
+W pierwsze kolejnosci trzeba odpalic serwery. Trzeba to zrobic na maszynie na ktorej dany serwer ma byc postawiony. Oczywiscie bezwzglednie trzeba znac jej adres. Uruchamiamy serwer w nastepujacy sposob (CygWin):
 
 <pre>
-java -cp NetCalculus.jar calculus.server.NetCalculusServer -port 1223
+$ ./NetCalculusServer1223.bat
+$ ./NetCalculusServer1224.bat
 </pre>
 
-To polecenie wykonane w konsoli odpali serwer na porcie 1223. Oczywiscie jeden serwer moze obsluzyc dwa dzialania i wystarczy ze w obu linijkach w aplikacji
-podamy ten sam adres serwera i ten sam port a aplikacja po polaczeniu zadziala na jednym tylko serwerze dzia³añ. Aby uruchomic drugi serwer wystarczy na tej
-samej (lub innej) maszynie wykonac analogiczna instrukce w konsoli. Port podajemy dowolny z zakresu 65535 (chyba). Po uruchomieniu serwera w konsoli 
-powinniœmy zobaczyc:
+To polecenie wykonane w konsoli odpali serwer na porcie 1223 oraz na porcie 1224. Oczywiscie jeden serwer moze obsluzyc dwa dzialania i wystarczy ze w obu linijkach w aplikacji podamy ten sam adres serwera i ten sam port a aplikacja po polaczeniu zadziala na jednym tylko serwerze dzialan. Aby uruchomic drugi serwer wystarczy na tej samej (lub innej) maszynie wykonac analogiczna instrukce w konsoli. Port podajemy dowolny z zakresu 65535 (chyba). Po uruchomieniu serwera w konsoli 
+
+Powinnismy zobaczyc:
 
 <pre>
 Calculus server started at port 1223 on Tue May 15 22:33:20 CEST 2007
