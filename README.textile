@@ -1,0 +1,26 @@
+One of the projects I've made for the programing lecture. It is simple POC of distributed computing. It design allows to execute different mathematical operations on the different machines (only sum and multiplication is supported as I remember).
+
+---
+
+Description in Polish:
+
+W pierwsze kolejnosci trzeba odpalic serwery. Trzeba to zrobic na maszynie na ktorej dany serwer ma byc postawiony. Oczywiscie bezwzglednie trzeba znac jej adres. Uruchamiamy serwer w nastepujacy sposob:
+
+<pre>
+java -cp NetCalculus.jar calculus.server.NetCalculusServer -port 1223
+</pre>
+
+To polecenie wykonane w konsoli odpali serwer na porcie 1223. Oczywiscie jeden serwer moze obsluzyc dwa dzialania i wystarczy ze w obu linijkach w aplikacji
+podamy ten sam adres serwera i ten sam port a aplikacja po polaczeniu zadziala na jednym tylko serwerze dzia³añ. Aby uruchomic drugi serwer wystarczy na tej
+samej (lub innej) maszynie wykonac analogiczna instrukce w konsoli. Port podajemy dowolny z zakresu 65535 (chyba). Po uruchomieniu serwera w konsoli 
+powinniœmy zobaczyc:
+
+<pre>
+Calculus server started at port 1223 on Tue May 15 22:33:20 CEST 2007
+</pre>
+
+Podczas wykonywania dzialan w konsoli beda rowniez widoczne komendy ktore zostaly wykonane oraz to jakie dane do nich przekzalismy. 
+
+Tak wiec jesli mamy odpalone dwa serwery (powiedzmy na porcie 1223 i 1224) na localhost (lub 127.0.0.1 - IP tez zadziala) to odpalamy aplikacje klienta, wpisujemy dane i robimy polaczenie - klikamy na button z ikonka pioruna.
+
+Dalej juz tylko uzywac.

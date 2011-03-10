@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="297mm"
+   width="210mm"
+   id="svg4126"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   sodipodi:docbase="C:\Documents and Settings\SarXos\Pulpit"
+   sodipodi:docname="connection.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="C:\Documents and Settings\SarXos\Pulpit\unconnected.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4128" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:cx="208.57143"
+     inkscape:cy="731.95908"
+     inkscape:zoom="1"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="836"
+     inkscape:window-height="573"
+     inkscape:window-x="22"
+     inkscape:window-y="29" />
+  <metadata
+     id="metadata4131">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Warstwa 1"
+     id="layer1">
+    <path
+       style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.90349311;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path5119"
+       d="M 189.12902,307.327 C 187.99078,307.95623 186.97466,308.73057 185.96281,309.49912 C 184.37437,310.69902 182.94067,312.0397 181.73885,313.53595 C 181.53579,313.96418 180.6178,314.71911 181.59884,314.61075 C 183.08044,314.42152 184.51234,314.01247 185.9636,313.6999 C 187.00493,313.54014 188.41487,312.86215 189.03378,313.87571 C 189.01046,315.00738 187.95195,315.97389 187.20985,316.85128 C 186.51052,317.65287 185.73714,318.40295 184.9827,319.16564 L 178.71721,321.42351 C 179.5684,320.69068 180.39087,319.9314 181.13315,319.11438 C 181.77854,318.35242 182.37076,317.55295 182.96734,316.77186 C 182.70551,316.80798 181.28942,317.00573 180.73444,317.14536 C 179.18416,317.4906 177.62673,318.01968 176.00875,317.98867 C 174.60122,317.57774 174.9225,316.66421 175.68021,315.80347 C 176.92689,314.29315 178.3535,312.90131 179.91588,311.62638 C 180.80467,310.90935 181.6835,310.17211 182.64678,309.53141 L 189.12902,307.327 z "
+       inkscape:export-filename="C:\Documents and Settings\SarXos\pulpit\connected.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+</svg>
